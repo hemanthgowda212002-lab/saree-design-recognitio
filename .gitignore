@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+# --- data is proprietary / large: NEVER commit it ---
+data/
+agent_files/
+manifest*.csv
+m_*.csv
+*.npz
+# model artefacts (publish via Kaggle/Releases, not git)
+runs/
+*.pt
+*.pth
